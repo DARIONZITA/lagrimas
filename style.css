@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root{
+  --fontmain:'Alumni Sans Inline One', cursive;
+  --fonttitulo:'Beau Rivage', cursive;
+  --bodyspecial: 'Splash', cursive;
+  --body:'Dancing Script', cursive;
+  --color1:#5c5954c4;
+  --color2:#18807C;
+  --color3:#454854;
+  --color4:#C8CCC4;
+  --color5:#47609F;
+}
+@keyframes cry{
+  0%{transform:translateY(-150%)}
+  100%{transform: translateY(100%)}
+}
+img{
+  width: 100%;
+  animation-name: cry;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+a:hover{
+  color: red;
+}
+#imgcry{
+  width: 50%;
+  height: 0px;
+  position:relative;
+  left: 50%;
+}
+*{
+  margin: 0px;
+  padding:0px;
+}
+#transparent2{
+  
+  background-image: url(img/img1.jpg);
+  background-position:center ;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 1;
+  box-shadow:inset 2px 3px 3px 2px #363636;
+  
+}
+#transparent1{
+  background-attachment: fixed;
+  transform: skewY(5deg);
+  background-image: url(img/img3.jpg);
+  background-size: cover;
+  z-index: 1;
+  box-shadow:2px 2px 2px 2px #363636;
+}
+header{
+  padding: 40px;
+  font-family: var(--fonttitulo);
+  background-color:var(--color2);
+  color: white;
+  text-align: center;
+ 
+}
+section{
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 5px;
+  font-size:4.5vw;
+  line-height:2em ;
+  font-weight: normal;
+}
+.conteiner:hover{
+  background-color: var(--color1);
+  padding: 5px;
+  border-radius: 5px
+}
+
+
+h1 {
+  font-variant:small-caps;
+  font-size:3em;
+  font-family: var(--fontmain);
+  font-weight: normal;
+  text-shadow: 1px 1px 1px black;
+}
+em a{
+  text-decoration: none;
+  color:black;
+}
+main{
+  font-family: var(--body);
+  display: grid;
+}
+
+
+#solidpart1{
+  padding-bottom: 50px;
+  box-shadow: inset 2px 2px 2px 2px #363636;
+}
+
+
+.t1{
+  background-color: black;
+  color:white;
+}
+footer{
+  padding: 5px;
+  background-color:#363636;
+  color: white;
+  text-align: center;
+}
+@media screen and (min-width:580px) {
+  #imgcry{
+    width: 300px;
+    justify-self: self-end;
+    left: 0%;
+  }
+  #transparent1{
+    background-attachment:scroll;
+  }
+  @keyframes cry{
+    0%{transform:translateY(-150%)}
+    100%{transform: translateY(250%)}
+  }
+  h1{
+    font-size: 7em;
+  }
+
+ 
+}
+
