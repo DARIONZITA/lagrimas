@@ -15,7 +15,7 @@
 }
 @keyframes cry{
   0%{transform:translateY(-150%)}
-  100%{transform: translateY(100%)}
+  100%{transform: translateY(120%)}
 }
 img{
   width: 100%;
@@ -67,7 +67,7 @@ section{
   padding-top: 15px;
   padding-left: 20px;
   padding-right: 5px;
-  font-size:4.5vw;
+  font-size:4vw;
   line-height:2em ;
   font-weight: normal;
 }
