@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fon@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 :root{
   --fontmain:'Alumni Sans Inline One', cursive;
   --fonttitulo:'Beau Rivage', cursive;
   --bodyspecial: 'Splash', cursive;
-  --body:'Gloria Hallelujah', cursive;
+  --body:'Aladin', cursive;
   --color1:#5c5954c4;
   --color2:#18807C;
   --color3:#454854;
