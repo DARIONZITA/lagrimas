@@ -15,12 +15,12 @@
 }
 @keyframes cry{
   0%{transform:translateY(-150%)}
-  100%{transform: translateY(155%)}
+  100%{transform: translateY(165%)}
 }
 img{
   width: 100%;
   animation-name: cry;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
