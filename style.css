@@ -15,7 +15,7 @@
 }
 @keyframes cry{
   0%{transform:translateY(-150%)}
-  100%{transform: translateY(120%)}
+  100%{transform: translateY(130%)}
 }
 img{
   width: 100%;
@@ -28,10 +28,10 @@ a:hover{
   color: red;
 }
 #imgcry{
-  width: 50%;
+  width: 30%;
   height: 0px;
   position:relative;
-  left: 50%;
+  left: 70%;
 }
 *{
   margin: 0px;
