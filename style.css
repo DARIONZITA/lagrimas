@@ -15,7 +15,7 @@
 }
 @keyframes cry{
   0%{transform:translateY(-150%)}
-  100%{transform: translateY(140%)}
+  100%{transform: translateY(155%)}
 }
 img{
   width: 100%;
